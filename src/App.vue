@@ -1,10 +1,24 @@
+<!--
+ * @file: 
+ * @Date: 2021-07-07 09:14:14
+ * @author: liuyong.wang
+-->
 <template>
-  <router-view />
+  <Home />
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue'
+import Home from '@/views/Home.vue'
 
+export default defineComponent({
+  components:{Home},
+  setup() {
+    
+  },
+})
 </script>
+
 
 <style>
 #app {
