@@ -14,9 +14,9 @@
 
 <script lang="ts">
 
-import { ref } from 'vue'
+import { defineComponent, ref } from 'vue'
 
-export default {
+export default defineComponent({
   components: {  },
   props: {
     user: {
@@ -61,7 +61,7 @@ export default {
   mounted () {
     // this.getUserRepositories() // 1
   }
-}
+})
 </script>
 
 <style></style>
